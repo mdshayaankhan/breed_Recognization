@@ -1,0 +1,14 @@
+# Backend API Dependencies
+# Install with: pip install -r requirements-api.txt
+
+# Flask web framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# Already in requirements.txt but needed for API
+tensorflow==2.20.0
+pillow==12.0.0
+numpy==2.2.6
+
+# Optional: For better performance
+gunicorn==21.2.0
